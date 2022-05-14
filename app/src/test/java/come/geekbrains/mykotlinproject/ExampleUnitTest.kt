@@ -1,17 +1,19 @@
-package come.geekbrains.mykotlinproject;
+package come.geekbrains.mykotlinproject
 
-import org.junit.Test;
-
-import static org.junit.Assert.*;
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import come.geekbrains.mykotlinproject.R
+import org.junit.Assert
+import org.junit.Test
 
 /**
  * Example local unit test, which will execute on the development machine (host).
  *
- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ * @see [Testing documentation](http://d.android.com/tools/testing)
  */
-public class ExampleUnitTest {
-  @Test
-  public void addition_isCorrect() {
-    assertEquals(4, 2 + 2);
-  }
+class ExampleUnitTest {
+    @Test
+    fun addition_isCorrect() {
+        Assert.assertEquals(4, (2 + 2).toLong())
+    }
 }
