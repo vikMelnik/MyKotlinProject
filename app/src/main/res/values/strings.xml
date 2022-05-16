@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">MyKotlinProject</string>
-    <string name="test">Test</string>
+    <string name="test">Find</string>
     <string name="test_test">For test</string>
     <string name="test_year">Year</string>
     <string name="test_director">Director</string>
