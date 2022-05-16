@@ -22,4 +22,7 @@ class ExampleInstrumentedTest {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         Assert.assertEquals("come.geekbrains.mykotlinproject", appContext.packageName)
     }
+
+
+
 }
